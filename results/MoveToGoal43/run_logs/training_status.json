@@ -1,0 +1,29 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 131183,
+                "file_path": "results\\MoveToGoal43\\MoveToTarget\\MoveToTarget-131183.onnx",
+                "reward": null,
+                "creation_time": 1732103471.3606079,
+                "auxillary_file_paths": [
+                    "results\\MoveToGoal43\\MoveToTarget\\MoveToTarget-131183.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 131183,
+            "file_path": "results\\MoveToGoal43\\MoveToTarget.onnx",
+            "reward": null,
+            "creation_time": 1732103471.3606079,
+            "auxillary_file_paths": [
+                "results\\MoveToGoal43\\MoveToTarget\\MoveToTarget-131183.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.5.1+cpu"
+    }
+}

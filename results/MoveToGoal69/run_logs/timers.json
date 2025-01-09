@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1732483950",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Kriszti\\Desktop\\TeachAi\\venv\\Scripts\\mlagents-learn config/MoveToGoal.yaml --initialize-from=MoveToGoal67 --run-id=MoveToGoal69",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.5.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1732483961"
+    },
+    "total": 10.99243899999965,
+    "count": 1,
+    "self": 0.02138319999903615,
+    "children": {
+        "run_training.setup": {
+            "total": 0.16862290000062785,
+            "count": 1,
+            "self": 0.16862290000062785
+        },
+        "TrainerController.start_learning": {
+            "total": 10.802432899999985,
+            "count": 1,
+            "self": 0.0008728000011615222,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.801539899999625,
+                    "count": 1,
+                    "self": 10.801539899999625
+                },
+                "trainer_threads": {
+                    "total": 1.0999992809956893e-06,
+                    "count": 1,
+                    "self": 1.0999992809956893e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.9099999917671084e-05,
+                    "count": 1,
+                    "self": 1.9099999917671084e-05
+                }
+            }
+        }
+    }
+}
